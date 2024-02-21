@@ -1,0 +1,157 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #896ABC;
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    color: #4D4D4D;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4D4D4D;
+}
+/*
+    NAV
+*/
+.nav .nav-link {
+    color: #4D4D4D;
+    position: relative;
+    display: inline-block;
+    padding-right: 10px; /* This padding is for the dots */
+    padding-left: 20px; /* Adjust the distance between the dots and links */
+    padding-top: 2px; /* Adjust the padding to align the text and dots */
+    padding-bottom: 2px; /* Adjust the padding to align the text and dots */
+    vertical-align: middle; /* Adjust the vertical alignment of the dots */
+}
+
+.nav .dot {
+    width: 6px;
+    height: 6px;
+    background-color: #800080;
+    border-radius: 50%;
+    vertical-align: middle; /* Adjust the vertical alignment of the dots */
+    top: 0px; /* Adjust the position of the dots */
+    left: -10px; /* Adjust the distance between the dots and links */
+    transform: translateY(-50%);
+}
+
+/* Hides the last dot */
+.nav .nav-link:last-child .dot {
+    display: none;
+}
+
+/*
+    IMG
+*/
+
+header {
+    width: 100%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    border: 10px solid #4D4D4D; 
+}
+
+/*
+    Text Section
+*/
+
+.colored-section {
+    background: white;
+    background-size: 200% 100%;
+}
+
+.colored-layer {
+    width: 75%; /* Adjust as needed */
+     /* Center horizontally */
+    background-color: #F4F2F7; /* Semi-transparent white layer */
+    
+    align-items: left;
+    justify-content: left;
+}
+
+.colored-layer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.colored-layer p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+ol li {
+    color: #896ABC;
+    font-size: 15px;
+}
+
+ul li {
+    color: #896ABC;
+    font-size: 15px;
+}
+
+button {
+    background-color: #D7CFE6;
+    color: #896ABC;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #896ABC;
+}
+
+/*
+    Logo
+*/
+.logo {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    margin-left: 30px;
+    filter: brightness(0.9) invert(1);
+}
+
+/*
+    Footer
+*/
+
+
+footer div i {
+    font-size: 12px;
+}
+
+footer div a {
+    color: #8D70BE;
+    text-decoration: none;
+    font-size: 12px;
+}
